@@ -1,1 +1,55 @@
-/* stylesheet for constitution.html */
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Roboto+Slab:wght@300&display=swap');
+</style>
+
+body { font-family: 'Roboto Slab', Times New Roman, serif;
+  font-size: 18px;
+  color: #222;
+  line-height: 1.5;
+}
+
+h1, h2, h3, header {
+  font-family: 'EB Garamond', serif;
+}
+
+header{
+  letter-spacing: .2rem;
+  text-shadow: 1px 1px 2px gray;
+}
+
+footer > p{
+  font-size: 14px;
+  color: #666;
+}
+
+#preamble{
+  background-color: #F5A98C;
+  text-align: center;
+}
+
+#preamble > p{
+  font-size: 24px;
+  font-style: italic;
+}
+
+#amendments > h2{
+  letter-spacing: .2rem;
+}
+
+.alt-bg{
+  background-color: #C3F5A4;
+}
+
+a:link {
+  color: rgb(14, 31, 65);
+}
+a:visited{
+  color: rgb(155 155 155);
+}
+a:hover{
+  color: rgb(201, 53, 68);
+}
+a:active{
+  color: rgb(245, 188, 78);
+}
